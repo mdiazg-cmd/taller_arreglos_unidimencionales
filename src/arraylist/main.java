@@ -1,30 +1,21 @@
-
-
-import java.util.ArrayList;
-
 public class main {
-
-    public static void main(String[] args) {
-
-      
-        LectorArchivo lector  = new LectorArchivo();
-        ArrayList<Partido> partidos = lector.leerPartidos("PartidoLiga.txt");
-
-       
-        if (partidos.isEmpty()) {
-            System.out.println("No se encontraron partidos en el archivo.");
-            return; 
-        }
-
-        
-        PartidoServicio servicio = new PartidoServicio();
-
-        servicio.mostrarVictoriasVisitante(partidos);   // punto 1
-        servicio.contarVictoriasBarcelona(partidos);    // punto 2
-        servicio.eliminarNoEmpates(partidos);           // punto 3
-        servicio.contarVictoriasLocal(partidos);        // punto 4
+    public static void main(String[] args) throws Exception {
+        Ejercicio_4 NumeroRandom = new Ejercicio_4();
+        Ejercicio_5 ListaInversa = new Ejercicio_5();
+        NumeroRandom.generarNumeroRandom();
+        NumeroRandom.encontrarMayor();
+        NumeroRandom.encontrarMenor();
+        System.out.println("");
+        System.out.println("---------------------------------------------------------");
+        System.out.println("");
+        ListaInversa.generarNumeroRandom();
+        ListaInversa.listaInversa();
+        System.out.println("");
+        System.out.println("----------------------------------------------------------");
+        System.out.println("");
+        Ejercicio_6 ListaAleatoria = new Ejercicio_6();
+        ListaAleatoria.generarNumeroRandom();
+        ListaAleatoria.sumarNumeros();
+        ListaAleatoria.promedioNumeros();
     }
 }
-
-
-
