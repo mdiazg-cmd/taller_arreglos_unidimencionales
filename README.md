@@ -76,3 +76,34 @@ Cada ejercicio está organizado en clases separadas
    javac IntercambiarFilas.java Ejercicio15.java
    java Ejercicio15
 
+## NOMBRE Estudiantes
+- Viktor Manuelle Velasco Gonzalez
+---
+## Descripción del taller
+Taller práctico sobre el uso y manejo de estructuras de datos lineales en Java,
+incluyendo arreglos unidimensionales y ArrayList.
+Se aplicaron principios de Clean Code, POO y principios SOLID, DRY, KISS y YAGNI.
+---
+## Instrucciones para ejecutar
+### Ejercicio 1 - Lista de números pares
+```
+Archivos: GestorListaPares.java, EntradaConsola.java, MainPares.java
+Este ejercicio se ejecuta desde MainPares.java, cuando le das click al botón
+del triángulo o la palabra Run. El programa te pedirá ingresar números 
+por consola para insertar y eliminar elementos de la lista.
+```
+### Ejercicio 2 - Frecuencia de números
+```
+Archivos: AnalizadorFrecuencia.java, ReporteFrecuencias.java, MainFrecuencia.java
+Este ejercicio se ejecuta desde MainFrecuencia.java con el botón Run.
+El programa genera automáticamente 100 números aleatorios entre 1 y 20,
+muestra la tabla de frecuencias y el número más repetido.
+```
+### Ejercicio 3 - Ordenar y separar pares/impares
+```
+Archivos: ListaNumeros.java, ReporteListaNumeros.java, MainOrden.java
+Este ejercicio se ejecuta desde MainOrden.java con el botón Run.
+El programa genera automáticamente 20 números aleatorios entre 1 y 100,
+los ordena de menor a mayor, de mayor a menor, y los separa en pares e impares.
+```
+---
