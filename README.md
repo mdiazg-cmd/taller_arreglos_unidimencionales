@@ -144,5 +144,31 @@ java Main
 con estos comandos puedes ingresar el valor 
 
 Cuando el programa pregunte, ingresa el tamaño n de la matriz (ejemplo: 4) y presiona Enter.
+
+## NOMBRE Estudiantes
+- Gustavo Saul Marquez Andrades
+---
+## Descripción del taller
+Taller práctico sobre el uso y manejo de estructuras de datos lineales en Java,
+incluyendo arreglos unidimensionales y ArrayList.
+Se aplicaron principios de Clean Code, POO y principios SOLID, DRY, KISS y YAGNI.
+---
+## Instrucciones para ejecutar
+### Ejercicio 4 - Numero mayor y menor
+```
+Archivos: Ejercicio_4.java, main.java
+El programa lee 25 números enteros aleatorios entre -50 y 50, los almacena en un arreglo y posterioirmente define el numero mayor y menor del arreglo
+
+```
+### Ejercicio 5 - Lista Invertida
+```
+Archivos: Ejercicio_5.java, main.java
+ESte programa inicializa un arreglo con 20 números aleatorios, enteros e invierte cada uno de los números del arreglo y guarda los números invertidos en otro arreglo. al final, imprime tanto el arreglo inicial, como el invertido.
+```
+### Ejercicio 6 - Ordenar y separar pares/impares
+```
+Archivos: Ejercicio_6.java, main.java
+El programa lee números enteros aleatorios entre -10 y 10 y los guarda en un ArrayList hasta que se lee el número 10. posteriorimente. Encuentra los números leídos, su suma y su media. Por ultimo, imprime los datos
+
 esto funciona para las clases que dicen Matriz(este es el punto 11) y MatrizDos(este es el punto 12). 
 ---
