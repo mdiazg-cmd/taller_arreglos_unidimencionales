@@ -3,7 +3,7 @@ public class
 
 ## NOMBRE Estudiantes
 
--Mabel Iveth Diaz Guerrero
+-Cristian Camilo Dorado Latorre
 
 ---
 
@@ -16,23 +16,30 @@ Se aplicaron principios de Clean Code, POO y principios SOLID, DRY, KISS y YAGNI
 
 ## Instrucciones para ejecutar
 
-### Ejercicio ArrayList - Partidos de fútbol
-```
-este se puede ejecuar directamente , cuando le das click al boton de un triangulo o un la palabra run, en este no se modifica solo se ven los resultados como los solicito el profesor. 
-```
+### Ejercicio Arreglos - Imprimir los primeros 10 numeros primos 
 
-### Ejercicio Matrices - Diagonal opuesta
-```se ejecuta en la terminal de visual, porque qui debes ingresar datos, entonces el sistema directamente no te lo deja hacer
-cd src/matrices
-javac Matriz.java MatrizServicio.java Main.java
-java Main
-con estos comandos puedes ingresar el valor 
+## Archivos
+`numerosPrimos.Java`
 ```
-Cuando el programa pregunte, ingresa el tamaño n de la matriz (ejemplo: 4) y presiona Enter.
-esto funciona para las clases que dicen Matriz(este es el punto 11) y MatrizDos(este es el punto 12). 
----
+Se ejecuta por medio del run en la parte superior de la barra de opciones, mostrando en la terminal los primeros 10 numeros primos 
+```
+### Ejercicio Arreglos - Imprimir 100 numeros pares 
 
-# Ejercicios de Matrices en Java
+## Archivos 
+`numerosPares.Java` 
+
+```
+Se ejecuta por medio del run en la parte superior de la barra de opciones, mostrando en la terminal los 100 numeros en una fila y la otra opcion donde lo ordena por medio de 1o lineas indicando el numero de lineas
+````
+### Ejercicio Arreglos - Numeros enteros aleatorios y su factorial 
+
+## Archivos 
+`numerosEnteros.Java`
+
+```
+Se ejecuta por medio del run en la parte superior de la barra de opciones, mostrando en la terminal los numeros elegidos de manera aleatoria y el factorial de los numeros escogidos de manera aleatoria 
+```
+## Ejercicios de Matrices en Java
 #Nombre del estudiante
 -Juan Diego Borja Valdes  
 
